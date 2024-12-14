@@ -1,15 +1,16 @@
 import { BrowserRouter, Route, Routes } from "react-router";
 import "./App.css";
-import Nav from "./components/Nav";
+
 import Dashboard from "./components/Dashboard";
+import LandigPage from "./components/LandingPage";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Nav />
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/" element={<LandigPage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
     </>

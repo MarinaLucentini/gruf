@@ -18,6 +18,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   margin: 2em;
+  height: 100vh;
 }
 
 h1,
@@ -26,6 +27,8 @@ h3 {
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
+  color: var(--primary-color);
+  margin: 0 !important;
 }
 
 h4,
@@ -34,11 +37,39 @@ h6 {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
+  color: var(--primary-color);
+  opacity: 0.5;
+  margin: 0 !important;
 }
 .d-flex-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
+  width: 100%;
   top: 0;
+}
+button {
+  background-color: var(--accent-color) !important;
+  text-transform: uppercase !important;
+  color: var(--text-color) !important;
+  font-size: medium;
+  margin-block: 2em;
+}
+
+button:hover {
+  background-color: var(--primary-color) !important;
+  color: var(--bg-color) !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--primary-color) !important;
+}
+a:hover {
+  color: var(--accent-color) !important;
+}
+
+.brand {
+  width: 50px;
 }
