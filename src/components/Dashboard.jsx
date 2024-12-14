@@ -8,6 +8,7 @@ import MonitoringChart from "./ChartHumidity";
 import NutrientsChart from "./ChartNutrients";
 import LightDistributionChart from "./ChartLight";
 import Calendar from "react-calendar";
+import GPT from "./GPT";
 
 const Dashboard = () => {
   return (
@@ -65,12 +66,7 @@ const Dashboard = () => {
         {/* Sezione Community */}
         <Row>
           <h2 className="text-center mb-4">AI suggestions</h2>
-          <Col>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid tempore, molestiae, veritatis iste ex obcaecati suscipit eius consequuntur ut
-              debitis, sed ad nihil! Magni enim aspernatur nemo facere corrupti architecto.
-            </p>
-          </Col>
+          <GPT />
         </Row>
         <Row>
           <h2 className="text-center mb-4">Community</h2>

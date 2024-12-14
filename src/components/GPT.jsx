@@ -1,6 +1,4 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -8,12 +6,11 @@ import InputGroup from 'react-bootstrap/InputGroup';
 
 const GPT = () => {
   return (
-    <Container>
-      <Row>
-        <Col sm={8}>
-		    <div id="responseBox" class="mt-3"></div>
+    <>
+		<Col>
+			<div id="responseBox" class="mt-3"></div>
 		</Col>
-        <Col sm={4}>
+		<Col>
 			<InputGroup className="mb-3">
 			<Form.Control
 			  placeholder="Recipient's username"
@@ -25,9 +22,8 @@ const GPT = () => {
 			</Button>
 			</InputGroup>
 		</Col>
-      </Row>
-    </Container>
-  );
-}
+	</>
+	);
+};
 
 export default GPT;
