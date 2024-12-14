@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 const Nav = () => {
   return (
     <>
-      <div className="flex align-center justify-between">
+      <div className="d-flex-nav ">
         <img src={logo} alt="logo" />
         <p>Welcome user ("name of user when he login")</p>
       </div>

@@ -15,6 +15,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 2em;
 }
 
 h1,
@@ -31,4 +34,9 @@ h6 {
   font-family: "Poppins", serif;
   font-weight: 400;
   font-style: normal;
+}
+.d-flex-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
