@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { InputGroup, Form, Button } from "react-bootstrap";
-function GPTButton() {
+const GPTButton = () => {
   const [responses, setResponses] = useState([]);
   const [userLocation, setUserLocation] = useState(null); // Stato per memorizzare la posizione dell'utente
   const userInputRef = useRef();
@@ -119,6 +119,6 @@ function GPTButton() {
       </div>
     </>
   );
-}
+};
 
 export default GPTButton;

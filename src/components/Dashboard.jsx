@@ -8,7 +8,6 @@ import MonitoringChart from "./ChartHumidity";
 import NutrientsChart from "./ChartNutrients";
 import LightDistributionChart from "./ChartLight";
 import Calendar from "react-calendar";
-
 import GPTButton from "./GPTButton";
 
 const Dashboard = () => {
