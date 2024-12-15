@@ -6,7 +6,6 @@ import PlantCard from "./PlantCard";
 import CommunitySection from "./CommunitySection";
 import MonitoringChart from "./ChartHumidity";
 import NutrientsChart from "./ChartNutrients";
-import LightDistributionChart from "./ChartLight";
 import Calendar from "react-calendar";
 
 import { useState, useRef } from "react";
@@ -146,11 +145,6 @@ const Dashboard = () => {
           <Col>
             <div className="bg-light p-3 rounded">
               <NutrientsChart />
-            </div>
-          </Col>
-          <Col>
-            <div className="bg-light p-3 rounded">
-              <LightDistributionChart />
             </div>
           </Col>
         </Row>
