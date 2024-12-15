@@ -7,7 +7,7 @@
   --bg-color: #f4f1de;
   --primary-color: #002700;
   --secondary-color: #f2cc8f;
-  --accent-color: #008000;
+  --accent-color: #02af02;
   --text-color: #333333;
 }
 
@@ -55,10 +55,11 @@ button {
   color: var(--text-color) !important;
   font-size: medium;
   margin-block: 2em;
+  font-weight: 700 !important;
 }
 
 button:hover {
-  background-color: var(--primary-color) !important;
+  background-color: var(--accent-color) !important;
   color: var(--bg-color) !important;
 }
 
