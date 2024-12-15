@@ -8,7 +8,8 @@ import MonitoringChart from "./ChartHumidity";
 import NutrientsChart from "./ChartNutrients";
 import LightDistributionChart from "./ChartLight";
 import Calendar from "react-calendar";
-import GPT from "./GPT";
+
+import GPTButton from "./GPTButton";
 
 const Dashboard = () => {
   return (
@@ -66,7 +67,7 @@ const Dashboard = () => {
         {/* Sezione Community */}
         <Row>
           <h2 className="text-center mb-4">AI suggestions</h2>
-          <GPT />
+          <GPTButton />
         </Row>
         <Row>
           <h2 className="text-center mb-4">Community</h2>
