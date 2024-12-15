@@ -119,11 +119,11 @@ const Dashboard = () => {
             </div>
           </Col>
         </Row>
-        <Row className="w-25 ms-auto">
+        {/* <Row className="w-25 ms-auto">
           <Col className=" justify-content-end">
             <Calendar />
           </Col>
-        </Row>
+        </Row> */}
         <Button className="w-25 h-25">Add a plant</Button>
         {/* Sezione Elenco delle Coltivazioni */}
         <Row className="mb-5">
