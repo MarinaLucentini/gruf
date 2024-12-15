@@ -9,7 +9,7 @@ import LandigPage from "./components/LandingPage";
 function App() {
     const [response, setResponse] = useState('');
 
-    const sendMessage = async () => {
+	const sendMessage = async () => {
         try {
             const res = await fetch('http://localhost:5000/api', {
                 method: 'POST',
@@ -20,10 +20,11 @@ function App() {
             });
             const data = await res.json();
             setResponse(data.response);
+			console.log(data);
         } catch (error) {
             console.error('Error sending message:', error);
         }
-    };
+	};
 
     return (
     <>
